@@ -1,29 +1,35 @@
-#include <unistd.h>
-
 #include "main.h"
 
 
-/*
+/**
+ * main - prints Putchar
  *
+ * Description: prints _putchar
  *
- * main - Entry Point
- *
- * Return: Always 0 (Success)
- *
+ * Return: 0 (Success)
  */
+
+
+
 int main(void)
 
 {
 
-	char word[8] = "_putchar";
+	_putchar('_');
 
-	int i;
+	_putchar('p');
 
+	_putchar('u');
 
+	_putchar('t');
 
-	for (i = 0; i < 8; i++)
+	_putchar('c');
 
-		_putchar(word[i]);
+	_putchar('h');
+
+	_putchar('a');
+
+	_putchar('r');
 
 	_putchar('\n');
 
